@@ -8,8 +8,9 @@ class Scorer {
     fun scoreForFrame(theFrame: Int): Int {
         ball = 0
         var score = 0
-        for (i: Int in 1..10)
-            print("$i ") // output : 1, 2, 3, 4, 5 ... 10
+        for (i: Int in 1..10) {
+            print("$i ")
+        }
 
         for (currentFrame in 0 until theFrame) {
             when {
